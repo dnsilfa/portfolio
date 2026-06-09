@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="container hero__inner">
         <div className="hero__content">
           <p className="hero__eyebrow animate-up" style={{ animationDelay: '0.1s' }}>
-            Available for new opportunities
+            Hello there
           </p>
 
           <h1 className="hero__name animate-up" style={{ animationDelay: '0.2s' }}>
@@ -23,7 +23,7 @@ export default function Hero() {
 
           <p className="hero__bio animate-up" style={{ animationDelay: '0.45s' }}>
             Building scalable cloud infrastructure and full-stack applications.
-            Passionate about DevOps, Azure, and shipping reliable software.
+            Passionate about DevOps, Azure, AWS, and shipping reliable software.
             Based in Miami, FL.
           </p>
 
@@ -53,7 +53,7 @@ export default function Hero() {
             <pre className="hero__code">{`// Danielle Silfa
 const engineer = {
   focus:  ["Cloud", "DevOps", "Full-Stack"],
-  stack:  ["Azure", "React", "TypeScript"],
+  stack:  ["Azure", "AWS", "React"],
   tools:  ["Terraform", "Docker", "K8s"],
   status: "Building cool things ✦"
 }`}</pre>

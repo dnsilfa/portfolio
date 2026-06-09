@@ -9,11 +9,10 @@ export default function Contact() {
 
           <p className="section-label">Let's connect</p>
           <h2 className="contact-card__heading">
-            Open to new<br />opportunities
+            Say hello!
           </h2>
           <p className="contact-card__sub">
-            Whether you have a role in mind, want to collaborate, or just want to say hello —
-            my inbox is always open.
+            For project inquiries, collaborations, or general questions, feel free to get in touch.
           </p>
 
           <a href="mailto:dnsilfa@gmail.com" className="btn btn--primary contact-card__btn">

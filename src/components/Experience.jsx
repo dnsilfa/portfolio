@@ -33,6 +33,43 @@ const jobs = [
     ],
     tags: ['TypeScript', 'VS Code API', 'Azure OpenAI', 'JSON Schema'],
   },
+  {
+    role: 'Technical Intern',
+    company: 'DENSO International America, Inc.',
+    location: 'Southfield, MI',
+    period: 'May 2022 – Aug 2022',
+    color: 'var(--text-secondary)',
+    highlights: [
+      'Communicated external alerts from Auto-ISAC Red Portal and CISA to internal security teams',
+      'Developed a Software Bill of Materials template in Excel to improve product registration',
+      'Authored guidelines to assist with vulnerability management and documented meeting minutes for project teams',
+    ],
+    tags: ['Excel', 'Vulnerability Management', 'Security'],
+  },
+  {
+    role: 'Evening with Industry Director',
+    company: 'Society of Women Engineers (SWE), University of Florida',
+    location: 'Gainesville, FL',
+    period: 'May 2022 – May 2023',
+    color: 'var(--accent-2)',
+    highlights: [
+      'Planned in-person and virtual recruitment events connecting 200+ students with company recruiters',
+      'Managed logistics, volunteers, budget planning, and communication with 50+ company contacts',
+    ],
+    tags: ['Event Planning', 'Leadership'],
+  },
+  {
+    role: 'Engineers in the Swamp Director',
+    company: 'Society of Women Engineers (SWE), University of Florida',
+    location: 'Gainesville, FL',
+    period: 'May 2021 – May 2022',
+    color: 'var(--accent)',
+    highlights: [
+      'Coordinated events to introduce new students to SWE and managed 200+ attendees and 25+ organizations',
+      'Oversaw volunteer teams and event logistics',
+    ],
+    tags: ['Leadership', 'Coordination'],
+  },
 ]
 
 function useInView(options = {}) {
