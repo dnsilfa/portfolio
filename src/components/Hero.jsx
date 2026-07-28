@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
 
           <p className="hero__bio animate-up" style={{ animationDelay: '0.45s' }}>
-            Building scalable cloud infrastructure and full-stack applications.
+            Building scalable cloud infrastructure and web applications.
             Passionate about DevOps, Azure, AWS, and shipping reliable software.
             Based in Miami, FL.
           </p>
@@ -52,7 +52,7 @@ export default function Hero() {
             </div>
             <pre className="hero__code">{`// Danielle Silfa
 const engineer = {
-  focus:  ["Cloud", "DevOps", "Full-Stack"],
+  focus:  ["Cloud", "DevOps", "Web Apps"],
   stack:  ["Azure", "AWS", "React"],
   tools:  ["Terraform", "Docker", "K8s"],
   status: "Building cool things ✦"
