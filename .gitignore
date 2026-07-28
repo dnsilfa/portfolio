@@ -2,3 +2,17 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# Terraform working files and local state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+crash.log
+crash.*.log
+
+# Keep example inputs and dependency locks in version control
+!*.tfvars.example
+!.terraform.lock.hcl

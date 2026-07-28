@@ -1,0 +1,8 @@
+project_name = "portfolio"
+aws_region   = "us-east-1"
+environment  = "production"
+
+# Optional tags to add to the standard project tags.
+additional_tags = {
+  Owner = "your-name"
+}
