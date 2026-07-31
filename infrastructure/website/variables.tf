@@ -1,5 +1,5 @@
 variable "aws_region" {
-  description = "AWS region in which to create the S3 origin bucket."
+  description = "AWS region in which to create the website infrastructure."
   type        = string
   default     = "us-east-1"
 }
@@ -26,7 +26,7 @@ variable "environment" {
 }
 
 variable "additional_tags" {
-  description = "Additional tags to apply to supported AWS resources."
+  description = "Additional tags to merge with the standard resource tags."
   type        = map(string)
   default     = {}
 }

@@ -6,9 +6,9 @@ provider "aws" {
     tags = merge(
       {
         Project     = var.project_name
-        Environment = "bootstrap"
+        Environment = var.environment
         ManagedBy   = "Terraform"
-        Purpose     = "TerraformRemoteState"
+        Application = "StaticPortfolio"
       },
       var.additional_tags
     )

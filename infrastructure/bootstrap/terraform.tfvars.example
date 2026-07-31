@@ -1,7 +1,0 @@
-project_name = "portfolio"
-aws_region   = "us-east-1"
-
-# Optional tags to add to the standard Project, Environment, ManagedBy, and Purpose tags.
-additional_tags = {
-  Owner = "your-name"
-}
