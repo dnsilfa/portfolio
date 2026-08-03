@@ -15,4 +15,5 @@ crash.*.log
 
 # Keep example inputs and dependency locks in version control
 !*.tfvars.example
+!infrastructure/website/terraform.tfvars
 !.terraform.lock.hcl

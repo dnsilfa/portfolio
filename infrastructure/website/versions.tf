@@ -5,7 +5,7 @@ terraform {
 
     workspaces {
       project = "Personal Projects"
-      name = "personal-portfolio"
+      name    = "personal-portfolio"
     }
   }
 

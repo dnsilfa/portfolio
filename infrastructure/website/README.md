@@ -45,7 +45,7 @@ terraform validate
 terraform plan
 ```
 
-Do not commit `terraform.tfvars` if it contains environment-specific values. The repository keeps `.terraform.lock.hcl` in version control after `terraform init` creates it.
+This repository tracks `infrastructure/website/terraform.tfvars` because it contains only non-sensitive project settings. Never add credentials, tokens, passwords, or other secrets to it. The repository also keeps `.terraform.lock.hcl` in version control after `terraform init` creates it.
 
 ## Future remote execution
 
